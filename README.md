@@ -1,2 +1,2 @@
 # FGK
-An dynamic and adaptive compression algorithm
+A dynamic and adaptive compression algorithm
