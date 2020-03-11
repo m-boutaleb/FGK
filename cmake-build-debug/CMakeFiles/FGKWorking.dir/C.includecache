@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Alienware 13 R2/Desktop/COPIA PROGETTO/fgkWorking.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

@@ -1,0 +1,10 @@
+#ifndef ASD20192020TPG6_ENCODING_H
+#define ASD20192020TPG6_ENCODING_H
+#include "tree.h"
+#include "fileManager.h"
+#include "bufferManager.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+void encode();
+#endif //ASD20192020TPG6_ENCODING_H

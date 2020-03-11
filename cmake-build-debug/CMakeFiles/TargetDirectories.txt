@@ -1,0 +1,4 @@
+C:/Users/Alienware 13 R2/Desktop/COPIA PROGETTO/cmake-build-debug/CMakeFiles/FGKtest.dir
+C:/Users/Alienware 13 R2/Desktop/COPIA PROGETTO/cmake-build-debug/CMakeFiles/FGKWorking.dir
+C:/Users/Alienware 13 R2/Desktop/COPIA PROGETTO/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Alienware 13 R2/Desktop/COPIA PROGETTO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
