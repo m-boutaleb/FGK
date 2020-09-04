@@ -1,18 +1,24 @@
-#include "fileManager.h"
-
 /**
- * Abbiamo generato il makefile che si occupa di creare e compilare tutti i file oggetto e di creare il file
- * FGK.exe. Per eseguire dunque l'algoritmo(dopo aver eseguito il makefile) basta digitare su linea di comando:
- * ./FGK.exe -c/-d <inputFile> <outputFile>
- * Altrimenti si può compilare il programma con la seguente linea di codice:
- * gcc -w -o FGK FGK.C fileManager.c tree.c encoding.c decoding.c bitManager.c
- * Per eseguire: ./FGK.exe -c(oppure -d per decomprimere) <inputFile> <outputFile>
+ * FGK (Faller Gallager Knuth)
+ * @copyright Copyright (c) 2020 by Mohamed Boutaleb
+ * @license This code is licensed under MIT license (see LICENSE.txt for details)
+ * @author Mohamed Boutaleb <mohamed.boutaleb@student.supsi.ch>
+ * @version 1.0.0 2020-08-19
+ * @run To run the program just run the target with the make file by typing "make static_FGK_1.0.0".
+ * Then a file with the name "FGK_static_1.0.0" should appear in the dist/ folder. Then access the
+ * dist folder and type the following command:
+ * ./FGK_static_1.0.0 <option> <input_file> <output_file>
+ * Where <option> should be "-c" to compress or "-d" to decompress, and <input_file> and <output_file>
+ * should be the name of the input and output file respectively
  */
- int main(int argc, char *argv[]){
+
+#include "algorithm_controller.h"
+
+int main(int argc, char *argv[]){
     if(argc!=4) {
-        printf("Specifica un file(esistente) da comprimere/decomprimere e il suo file di output!");
-        exit(1);
+        log_error("ERROR - Specify '-c' or '-d' to compress or decompress file respectively and an input and an output file name...");
+        exit(ERROR_ARGUMENTS);
     }
-    initializeFile(argv[1], argv[2], argv[3]);
+    initialize_algorithm(argv[1], argv[2], argv[3]);
     return 0;
 }
