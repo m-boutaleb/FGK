@@ -10,7 +10,7 @@ FGK (Faller Galleger Knuth) is a lossless dynamic compression algorithm develope
 
 # Installation
 
-FGK require MinGW or any other compiler for C. Static distributions are available for linux and windows in the # dist/ folder, while the necessary libraries are available in the lib/ dir. 
+FGK require MinGW or any other compiler for C. Static distributions are available for linux and windows in the *dist/* folder, while the necessary libraries are available in the *lib/* dir. 
 
 To run the algorithm go to the dist/<your so> then run the following command and specify the option '-c' to compress or '-d' to decompress followed by an input and an ouput file:
 
