@@ -8,7 +8,7 @@ FGK (Faller Galleger Knuth) is a lossless dynamic compression algorithm develope
   - Multilayer architecture
   - Compress and decompress all kind of data
 
-# Installation
+# Usage
 
 FGK require MinGW or any other compiler for C. Static distributions are available for linux and windows in the *dist/* folder, while the necessary libraries are available in the *lib/* dir. 
 
